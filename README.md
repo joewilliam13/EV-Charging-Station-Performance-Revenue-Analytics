@@ -183,14 +183,14 @@ The dashboard helps businesses identify:
 
 ## Dashboard Preview
 ### Overview
--<a href="">Dashboard</a>
+-<a href="https://github.com/joewilliam13/EV-Charging-Station-Performance-Revenue-Analytics/blob/main/screenshots/Page_1.png">Dashboard</a>
 ### Station Analysis
-
-
+-<a href="https://github.com/joewilliam13/EV-Charging-Station-Performance-Revenue-Analytics/blob/main/screenshots/Page_2.png">Dashboard</a>
 ### Session Analysis
-
-
+-<a href="https://github.com/joewilliam13/EV-Charging-Station-Performance-Revenue-Analytics/blob/main/screenshots/Page_3.png">Dashboard</a>
 ### Revenue Analysis
-
-
+-<a href="https://github.com/joewilliam13/EV-Charging-Station-Performance-Revenue-Analytics/blob/main/screenshots/Page_4.png">Dashboard</a>
 ### Location Analysis
+-<a href="https://github.com/joewilliam13/EV-Charging-Station-Performance-Revenue-Analytics/blob/main/screenshots/Page_5.png">Dashboard</a>
+
+
