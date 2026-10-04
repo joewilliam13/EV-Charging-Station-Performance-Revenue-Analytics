@@ -29,5 +29,5 @@ The dashboard helps identify high- and low-performing charging stations, underst
 - Time-Series Analysis
 
 ## Dataset
--<a href=""> Dataset</a>
+-<a href="https://github.com/joewilliam13/EV-Charging-Station-Performance-Revenue-Analytics/blob/main/EV_Charging_Station.csv"> Dataset</a>
 
