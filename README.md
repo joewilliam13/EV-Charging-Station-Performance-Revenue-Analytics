@@ -148,10 +148,49 @@ The project uses a simple star-schema approach with:
 - `EV_Charging_Station` – Main fact table
 - `Calender` – Date dimension table
 
-### Relationship
+## 🔍 Power BI Features Used
 
-```text
-Calender[Date]  1 ───────── *  EV_Charging_Station[Date]
+- Power Query for data cleaning and transformation
+- DAX-based calculations
+- Calendar table and time-intelligence analysis
+- Interactive slicers
+- Slicer synchronization across report pages
+- Cross-filtering
+- Top N analysis
+- Conditional formatting
+- Page navigation
+- KPI cards
+- Bar charts
+- Column charts
+- Line charts
+- Donut charts
+- Scatter plots
+- Map visualization
+'
+##  Business Insights
+
+The dashboard helps businesses identify:
+
+- High-performing and low-performing charging stations
+- Revenue trends across months and cities
+- Charger types with higher session demand
+- Vehicle types with higher energy consumption
+- Customer usage patterns
+- Stations with higher utilization
+- Relationship between energy consumption and revenue
+- Locations with strong revenue potential
+- Opportunities for capacity planning and future station expansion
+
+## Dashboard Preview
+### Overview
+
+### Station Analysis
 
 
+### Session Analysis
 
+
+### Revenue Analysis
+
+
+### Location Analysis
