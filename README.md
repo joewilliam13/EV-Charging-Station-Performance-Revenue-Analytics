@@ -30,4 +30,158 @@ The dashboard helps identify high- and low-performing charging stations, underst
 
 ## Dataset
 -<a href="https://github.com/joewilliam13/EV-Charging-Station-Performance-Revenue-Analytics/blob/main/EV_Charging_Station.csv"> Dataset</a>
+## 📑 Dashboard Pages
 
+### 1. Overview
+
+Provides a high-level summary of EV charging operations and revenue performance.
+
+**Key KPIs:**
+- Total Revenue
+- Completed Sessions
+- Total Energy
+- Average Revenue per Session
+- Average Charging Duration
+- Station Utilization
+- Revenue MoM Growth
+
+**Key Visuals:**
+- Monthly Revenue Trend
+- Top 10 Charging Stations by Revenue
+- Sessions by Charger Type
+- Energy Consumption by Vehicle Type
+
+---
+
+### 2. Station Analysis
+
+Analyzes the performance of individual charging stations.
+
+**Key KPIs:**
+- Total Revenue
+- Completed Sessions
+- Total Energy
+- Average Revenue per Session
+
+**Key Visuals:**
+- Revenue by Charging Station
+- Charging Sessions by Station
+- Energy Consumption by Charging Station
+- Station Utilization by Charging Station
+- Revenue vs Energy by Station
+- Top & Bottom Performing Stations
+
+---
+
+### 3. Session Analysis
+
+Analyzes charging activity, session status, charging duration, and customer usage.
+
+**Key KPIs:**
+- Completed Sessions
+- Completion Rate
+- Average Charging Duration
+- Average Energy per Session
+
+**Key Visuals:**
+- Sessions by Session Status
+- Sessions by Duration Category
+- Charging Sessions Trend
+- Sessions by Customer Type
+
+---
+
+### 4. Revenue Analysis
+
+Provides detailed financial performance analysis.
+
+**Key KPIs:**
+- Completed Revenue
+- Average Revenue per Session
+- Revenue per kWh
+- Revenue MoM Growth
+
+**Key Visuals:**
+- Monthly Revenue Trend
+- Revenue by City
+- Top 10 Revenue Stations
+- Revenue vs Energy
+
+---
+
+### 5. Location Analysis
+
+Analyzes geographical performance and station utilization.
+
+**Key KPIs:**
+- Total Stations
+- Active Stations
+- Total Revenue
+- Average Station Utilization
+
+**Key Visuals:**
+- Revenue by City / Location
+- Sessions by City
+- Station Utilization by City
+- Geographic Revenue Visualization
+## 🧹 Data Preparation
+
+Data preparation and transformation were performed using Power Query.
+
+Key steps included:
+
+- Promoting headers
+- Data type validation
+- Removing duplicate records
+- Filtering invalid records
+- Cleaning text fields
+- Trimming text values
+- Validating numerical columns
+- Creating Duration Category
+- Creating Energy Category
+- Preparing the data for DAX analysis
+
+## 🗓️ Data Model
+
+The project uses a simple star-schema approach with:
+
+- `EV_Charging_Station` – Main fact table
+- `Calender` – Date dimension table
+
+### Relationship
+
+```text
+Calender[Date]  1 ───────── *  EV_Charging_Station[Date]
+
+## 🔍 Power BI Features Used
+
+- Power Query for data cleaning and transformation
+- DAX-based calculations
+- Calendar table and time-intelligence analysis
+- Interactive slicers
+- Slicer synchronization across report pages
+- Cross-filtering
+- Top N analysis
+- Conditional formatting
+- Page navigation
+- KPI cards
+- Bar charts
+- Column charts
+- Line charts
+- Donut charts
+- Scatter plots
+- Map visualization
+
+## 💡 Business Insights
+
+The dashboard helps businesses identify:
+
+- High-performing and low-performing charging stations
+- Revenue trends across months and cities
+- Charger types with higher session demand
+- Vehicle types with higher energy consumption
+- Customer usage patterns
+- Stations with higher utilization
+- Relationship between energy consumption and revenue
+- Locations with strong revenue potential
+- Opportunities for capacity planning and future station expansion
