@@ -193,4 +193,21 @@ The dashboard helps businesses identify:
 ### Location Analysis
 -<a href="https://github.com/joewilliam13/EV-Charging-Station-Performance-Revenue-Analytics/blob/main/screenshots/Page_5.png">Dashboard</a>
 
+## 📌 Project Outcome
 
+This project provides an interactive Power BI solution for monitoring EV charging operations and business performance.
+
+The dashboard enables users to:
+
+- Track revenue and charging activity
+- Compare station and city performance
+- Understand customer and charging behavior
+- Monitor energy consumption and station utilization
+- Identify high- and low-performing locations
+- Support data-driven business and expansion decisions
+
+## 🎯 Conclusion
+
+This project demonstrates how Power BI can be used to transform EV charging data into meaningful business insights.
+
+The dashboard provides a clear view of revenue, charging sessions, energy consumption, station performance, customer usage, and geographical performance to support data-driven decision-making.
